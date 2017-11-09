@@ -1,3 +1,10 @@
+/*
+tools
+jetBrain DataGrid all
+mysql-front import big DB in xamp windows
+microsoft sql server mssql
+*/
+
 //read table from db
     $sql = "SELECT * FROM information_schema.TABLES ORDER BY TABLE_NAME";
     $res = mssql_query($sql);
